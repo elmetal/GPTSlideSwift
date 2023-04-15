@@ -15,6 +15,7 @@ struct SlideContentView: View {
         VStack(alignment: .leading) {
             Text(slide.title)
                 .font(.largeTitle)
+                .fontWeight(.heavy)
                 .padding(.bottom)
 
             if let subtitle = slide.subtitle {
