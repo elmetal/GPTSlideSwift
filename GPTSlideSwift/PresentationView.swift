@@ -13,9 +13,9 @@ struct PresentationView: View {
     @State private var currentSlideIndex = 0
 
     let slides: [Slide] = [
-        Slide(id: 0, title: "Slide 1", content: "This is the first slide.", imageName: nil),
-        Slide(id: 1, title: "Slide 2", content: "This is the second slide.", imageName: nil),
-        Slide(id: 2, title: "Slide 3", content: "This is the third slide.", imageName: nil)
+        Slide(id: 0, title: "Slide 1", subtitle: "subtitle 1", content: "This is the first slide.", imageName: nil),
+        Slide(id: 1, title: "Slide 2", subtitle: nil, content: "This is the second slide.", imageName: nil),
+        Slide(id: 2, title: "Slide 3", subtitle: "subtitle 3", content: "This is the third slide.", imageName: nil)
     ]
 
     var body: some View {
