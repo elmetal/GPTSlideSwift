@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4051B0B29E85D6D009ED602 /* GPTSlideSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4051B0A29E85D6D009ED602 /* GPTSlideSwiftApp.swift */; };
+		A4051B0F29E85D6F009ED602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4051B0E29E85D6F009ED602 /* Assets.xcassets */; };
+		A4051B1229E85D6F009ED602 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4051B1129E85D6F009ED602 /* Preview Assets.xcassets */; };
+		A4051B1C29E85D6F009ED602 /* GPTSlideSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4051B1B29E85D6F009ED602 /* GPTSlideSwiftTests.swift */; };
+		A4051B2629E85D6F009ED602 /* GPTSlideSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4051B2529E85D6F009ED602 /* GPTSlideSwiftUITests.swift */; };
+		A4051B2829E85D6F009ED602 /* GPTSlideSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4051B2729E85D6F009ED602 /* GPTSlideSwiftUITestsLaunchTests.swift */; };
+		A4051B3529E85DE5009ED602 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4051B3429E85DE5009ED602 /* Slide.swift */; };
+		A4051B3729E85DFA009ED602 /* PresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4051B3629E85DFA009ED602 /* PresentationView.swift */; };
+		A4051B3929E86316009ED602 /* SlideContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4051B3829E86316009ED602 /* SlideContentView.swift */; };
+		A4051B3B29E86399009ED602 /* NavigationButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4051B3A29E86399009ED602 /* NavigationButtonsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4051B1829E85D6F009ED602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4051AFF29E85D6D009ED602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4051B0629E85D6D009ED602;
+			remoteInfo = GPTSlideSwift;
+		};
+		A4051B2229E85D6F009ED602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4051AFF29E85D6D009ED602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4051B0629E85D6D009ED602;
+			remoteInfo = GPTSlideSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4051B0729E85D6D009ED602 /* GPTSlideSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPTSlideSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4051B0A29E85D6D009ED602 /* GPTSlideSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTSlideSwiftApp.swift; sourceTree = "<group>"; };
+		A4051B0E29E85D6F009ED602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4051B1129E85D6F009ED602 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4051B1729E85D6F009ED602 /* GPTSlideSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPTSlideSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4051B1B29E85D6F009ED602 /* GPTSlideSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTSlideSwiftTests.swift; sourceTree = "<group>"; };
+		A4051B2129E85D6F009ED602 /* GPTSlideSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPTSlideSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4051B2529E85D6F009ED602 /* GPTSlideSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTSlideSwiftUITests.swift; sourceTree = "<group>"; };
+		A4051B2729E85D6F009ED602 /* GPTSlideSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTSlideSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4051B3429E85DE5009ED602 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		A4051B3629E85DFA009ED602 /* PresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationView.swift; sourceTree = "<group>"; };
+		A4051B3829E86316009ED602 /* SlideContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideContentView.swift; sourceTree = "<group>"; };
+		A4051B3A29E86399009ED602 /* NavigationButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4051B0429E85D6D009ED602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4051B1429E85D6F009ED602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4051B1E29E85D6F009ED602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4051AFE29E85D6D009ED602 = {
+			isa = PBXGroup;
+			children = (
+				A4051B0929E85D6D009ED602 /* GPTSlideSwift */,
+				A4051B1A29E85D6F009ED602 /* GPTSlideSwiftTests */,
+				A4051B2429E85D6F009ED602 /* GPTSlideSwiftUITests */,
+				A4051B0829E85D6D009ED602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4051B0829E85D6D009ED602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4051B0729E85D6D009ED602 /* GPTSlideSwift.app */,
+				A4051B1729E85D6F009ED602 /* GPTSlideSwiftTests.xctest */,
+				A4051B2129E85D6F009ED602 /* GPTSlideSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4051B0929E85D6D009ED602 /* GPTSlideSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A4051B0A29E85D6D009ED602 /* GPTSlideSwiftApp.swift */,
+				A4051B0E29E85D6F009ED602 /* Assets.xcassets */,
+				A4051B1029E85D6F009ED602 /* Preview Content */,
+				A4051B3429E85DE5009ED602 /* Slide.swift */,
+				A4051B3629E85DFA009ED602 /* PresentationView.swift */,
+				A4051B3829E86316009ED602 /* SlideContentView.swift */,
+				A4051B3A29E86399009ED602 /* NavigationButtonsView.swift */,
+			);
+			path = GPTSlideSwift;
+			sourceTree = "<group>";
+		};
+		A4051B1029E85D6F009ED602 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4051B1129E85D6F009ED602 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4051B1A29E85D6F009ED602 /* GPTSlideSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4051B1B29E85D6F009ED602 /* GPTSlideSwiftTests.swift */,
+			);
+			path = GPTSlideSwiftTests;
+			sourceTree = "<group>";
+		};
+		A4051B2429E85D6F009ED602 /* GPTSlideSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4051B2529E85D6F009ED602 /* GPTSlideSwiftUITests.swift */,
+				A4051B2729E85D6F009ED602 /* GPTSlideSwiftUITestsLaunchTests.swift */,
+			);
+			path = GPTSlideSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4051B0629E85D6D009ED602 /* GPTSlideSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4051B2B29E85D6F009ED602 /* Build configuration list for PBXNativeTarget "GPTSlideSwift" */;
+			buildPhases = (
+				A4051B0329E85D6D009ED602 /* Sources */,
+				A4051B0429E85D6D009ED602 /* Frameworks */,
+				A4051B0529E85D6D009ED602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPTSlideSwift;
+			productName = GPTSlideSwift;
+			productReference = A4051B0729E85D6D009ED602 /* GPTSlideSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4051B1629E85D6F009ED602 /* GPTSlideSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4051B2E29E85D6F009ED602 /* Build configuration list for PBXNativeTarget "GPTSlideSwiftTests" */;
+			buildPhases = (
+				A4051B1329E85D6F009ED602 /* Sources */,
+				A4051B1429E85D6F009ED602 /* Frameworks */,
+				A4051B1529E85D6F009ED602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4051B1929E85D6F009ED602 /* PBXTargetDependency */,
+			);
+			name = GPTSlideSwiftTests;
+			productName = GPTSlideSwiftTests;
+			productReference = A4051B1729E85D6F009ED602 /* GPTSlideSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4051B2029E85D6F009ED602 /* GPTSlideSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4051B3129E85D6F009ED602 /* Build configuration list for PBXNativeTarget "GPTSlideSwiftUITests" */;
+			buildPhases = (
+				A4051B1D29E85D6F009ED602 /* Sources */,
+				A4051B1E29E85D6F009ED602 /* Frameworks */,
+				A4051B1F29E85D6F009ED602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4051B2329E85D6F009ED602 /* PBXTargetDependency */,
+			);
+			name = GPTSlideSwiftUITests;
+			productName = GPTSlideSwiftUITests;
+			productReference = A4051B2129E85D6F009ED602 /* GPTSlideSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4051AFF29E85D6D009ED602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A4051B0629E85D6D009ED602 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A4051B1629E85D6F009ED602 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A4051B0629E85D6D009ED602;
+					};
+					A4051B2029E85D6F009ED602 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A4051B0629E85D6D009ED602;
+					};
+				};
+			};
+			buildConfigurationList = A4051B0229E85D6D009ED602 /* Build configuration list for PBXProject "GPTSlideSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4051AFE29E85D6D009ED602;
+			productRefGroup = A4051B0829E85D6D009ED602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4051B0629E85D6D009ED602 /* GPTSlideSwift */,
+				A4051B1629E85D6F009ED602 /* GPTSlideSwiftTests */,
+				A4051B2029E85D6F009ED602 /* GPTSlideSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4051B0529E85D6D009ED602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4051B1229E85D6F009ED602 /* Preview Assets.xcassets in Resources */,
+				A4051B0F29E85D6F009ED602 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4051B1529E85D6F009ED602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4051B1F29E85D6F009ED602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4051B0329E85D6D009ED602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4051B3729E85DFA009ED602 /* PresentationView.swift in Sources */,
+				A4051B3529E85DE5009ED602 /* Slide.swift in Sources */,
+				A4051B3B29E86399009ED602 /* NavigationButtonsView.swift in Sources */,
+				A4051B0B29E85D6D009ED602 /* GPTSlideSwiftApp.swift in Sources */,
+				A4051B3929E86316009ED602 /* SlideContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4051B1329E85D6F009ED602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4051B1C29E85D6F009ED602 /* GPTSlideSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4051B1D29E85D6F009ED602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4051B2829E85D6F009ED602 /* GPTSlideSwiftUITestsLaunchTests.swift in Sources */,
+				A4051B2629E85D6F009ED602 /* GPTSlideSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4051B1929E85D6F009ED602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4051B0629E85D6D009ED602 /* GPTSlideSwift */;
+			targetProxy = A4051B1829E85D6F009ED602 /* PBXContainerItemProxy */;
+		};
+		A4051B2329E85D6F009ED602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4051B0629E85D6D009ED602 /* GPTSlideSwift */;
+			targetProxy = A4051B2229E85D6F009ED602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4051B2929E85D6F009ED602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4051B2A29E85D6F009ED602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4051B2C29E85D6F009ED602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPTSlideSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elmetal.GPTSlideSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4051B2D29E85D6F009ED602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPTSlideSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elmetal.GPTSlideSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4051B2F29E85D6F009ED602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elmetal.GPTSlideSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPTSlideSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPTSlideSwift";
+			};
+			name = Debug;
+		};
+		A4051B3029E85D6F009ED602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elmetal.GPTSlideSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPTSlideSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPTSlideSwift";
+			};
+			name = Release;
+		};
+		A4051B3229E85D6F009ED602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elmetal.GPTSlideSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPTSlideSwift;
+			};
+			name = Debug;
+		};
+		A4051B3329E85D6F009ED602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elmetal.GPTSlideSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPTSlideSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4051B0229E85D6D009ED602 /* Build configuration list for PBXProject "GPTSlideSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4051B2929E85D6F009ED602 /* Debug */,
+				A4051B2A29E85D6F009ED602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4051B2B29E85D6F009ED602 /* Build configuration list for PBXNativeTarget "GPTSlideSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4051B2C29E85D6F009ED602 /* Debug */,
+				A4051B2D29E85D6F009ED602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4051B2E29E85D6F009ED602 /* Build configuration list for PBXNativeTarget "GPTSlideSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4051B2F29E85D6F009ED602 /* Debug */,
+				A4051B3029E85D6F009ED602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4051B3129E85D6F009ED602 /* Build configuration list for PBXNativeTarget "GPTSlideSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4051B3229E85D6F009ED602 /* Debug */,
+				A4051B3329E85D6F009ED602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4051AFF29E85D6D009ED602 /* Project object */;
+}
