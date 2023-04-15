@@ -6,8 +6,9 @@
 //  
 //
 
-struct Slide {
+struct Slide: Identifiable {
     let id: Int
     let title: String
     let content: String
+    let imageName: String?
 }

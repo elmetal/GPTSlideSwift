@@ -20,7 +20,6 @@ struct NavigationButtonsView: View {
                 }
             }) {
                 Image(systemName: "arrow.left")
-                    .foregroundColor(.white)
             }
             Spacer()
             Button(action: {
@@ -29,7 +28,6 @@ struct NavigationButtonsView: View {
                 }
             }) {
                 Image(systemName: "arrow.right")
-                    .foregroundColor(.white)
             }
         }
         .padding(.horizontal)
