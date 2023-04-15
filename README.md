@@ -6,8 +6,9 @@ GPTSlideSwift is a simple and user-friendly presentation app created using Swift
 
 Clone or download the project and open it in Xcode:
 
+```
 git clone https://github.com/elmetal/GPTSlideSwift.git
-
+```
 
 Once the project is open in Xcode, select the target device and build and run the app.
 
